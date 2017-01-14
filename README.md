@@ -1,2 +1,2 @@
 # JBlog
-private blog system user jfinal
+private blog system use jfinal
