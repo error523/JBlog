@@ -73,4 +73,12 @@ public abstract class BaseVIEW<M extends BaseVIEW<M>> extends Model<M> implement
 		return get("VIEW_COMMENTS");
 	}
 
+	public void setViewUri(java.lang.String viewUri) {
+		set("VIEW_URI", viewUri);
+	}
+
+	public java.lang.String getViewUri() {
+		return get("VIEW_URI");
+	}
+
 }
